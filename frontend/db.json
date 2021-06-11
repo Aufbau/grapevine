@@ -21,7 +21,7 @@
     {
       "id": 4,
       "title": "No more clickbait posts please 😀",
-      "content": "Grapevine is turning into a dumping ground for TikTok evangelism. I'm sorry, but I'm taking a stand against it. Jisko jisko mera baat pasand aya, like thoko 👇👇👇... but in all seriousness, we need to do something about this!",
+      "content": "I am very worried that Grapevine is slowly transforming into a degenerate cringe Tik Tok evangelism platform please help spread the word",
       "userId": 2
     },
     {
@@ -61,92 +61,92 @@
   "comments": [
     {
       "id": 1,
-      "text": "To hum kya karein bhai 😋",
+      "content": "To hum kya karein bhai 😋",
       "postId": 1,
       "userId": 2
     },
     {
       "id": 2,
-      "text": "Congratulations bro",
+      "content": "Congratulations bro",
       "postId": 1,
       "userId": 4
     },
     {
       "id": 3,
-      "text": "Wow congratulations!! 😘😘💕🥰",
+      "content": "Wow congratulations!! 😘😘💕🥰",
       "postId": 1,
       "userId": 3
     },
     {
       "id": 4,
-      "text": "WOWOWOW post pics no?  :\"))",
+      "content": "WOWOWOW post pics no?  :\"))",
       "postId": 1,
       "userId": 5
     },
     {
       "id": 5,
-      "text": "Sakt launda ho bhai 😎😎😎",
+      "content": "Sakt launda ho bhai 😎😎😎",
       "postId": 1,
-      "userId":2
+      "userId": 2
     },
     {
       "id": 6,
-      "text": "🙄😒😒",
+      "content": "🙄😒😒",
       "postId": 2,
       "userId": 1
     },
     {
       "id": 7,
-      "text": "Rude 😡😡😡",
+      "content": "Rude 😡😡😡",
       "postId": 2,
       "userId": 5
     },
     {
       "id": 8,
-      "text": "Ek number bhai 😂😂👌🤣🤣",
+      "content": "Ek number bhai 😂😂👌🤣🤣",
       "postId": 2,
       "userId": 4
     },
     {
       "id": 9,
-      "text": "Like button kahan hai 😜",
+      "content": "Like button kahan hai 😜",
       "postId": 2,
       "userId": 4
     },
     {
       "id": 10,
-      "text": ":(",
+      "content": ":(",
       "postId": 2,
       "userId": 3
     },
     {
       "id": 11,
-      "text": "Welcome to the party sis 😂😂",
+      "content": "Welcome to the party sis 😂😂",
       "postId": 3,
       "userId": 5
     },
     {
       "id": 12,
-      "text": "Wow what is TikTok 😀🤔🤔",
+      "content": "Wow what is TikTok 😀🤔🤔",
       "postId": 3,
       "userId": 1
     },
     {
       "id": 13,
-      "text": "Please no...",
+      "content": "Please no...",
       "postId": 3,
       "userId": 2
     },
     {
       "id": 14,
-      "text": "Bhai bhai 😂😂",
-      "postId": 3,
+      "content": "Bhai bhai 😂😂",
+      "postId": 4,
       "userId": 4
     },
     {
       "id": 15,
-      "text": "Ya I don't get it, everybody keeps hating on this platform, but it's just a reflection of you as a person, and humanity as a whole. There's nothing inherently wrong with the app itself :O. You can just, yknow ... not use it? Just a thought!",
-      "postId": 3,
+      "content": "Ya I don't get it, everybody keeps hating on this platform, but it's just a reflection of you as a person, and humanity as a whole. There's nothing inherently wrong with the app itself :O. You can just, yknow ... not use it? Just a thought!",
+      "postId": 4,
       "userId": 5
     }
   ]
