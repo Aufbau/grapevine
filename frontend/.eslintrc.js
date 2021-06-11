@@ -6,7 +6,8 @@ module.exports = {
   },
   "extends": [
     "eslint:recommended",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended"
   ],
   "parserOptions": {
     "ecmaFeatures": {
@@ -34,6 +35,7 @@ module.exports = {
     "semi": [
       "warn",
       "never"
-    ]
+    ],
+    "no-unused-vars": ["warn"]
   }
 }

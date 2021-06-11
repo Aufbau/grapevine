@@ -1,0 +1,153 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Baby was born",
+      "content": "Welcoming a new addition to our home!!! Really excited to share this auspecious news with you guys! 👶🐣🍼🤰😎💪💪",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "No more baby posts please 😀",
+      "content": "Grapevine is turning into a dumping ground for good feeling posts and reused memes. I'm sorry, but I'm taking a stand against it. Jisko jisko mera baat pasand aya, like thoko 👇👇👇",
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "title": "GUYS, YOU WON'T BELIEVE WHAT I FOUND...",
+      "content": "GUYS, have you heard of TikTok? It's this really cutting edge video sharing app with INFINITE CONTENT!!",
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "title": "No more clickbait posts please 😀",
+      "content": "Grapevine is turning into a dumping ground for TikTok evangelism. I'm sorry, but I'm taking a stand against it. Jisko jisko mera baat pasand aya, like thoko 👇👇👇... but in all seriousness, we need to do something about this!",
+      "userId": 2
+    },
+    {
+      "id": 5,
+      "title": "Hey guys, how long does it take you to shower on average?",
+      "content": "Takes around 5 minutes for me, I'm Mr. Flash ⚡⚡.",
+      "userId": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "chakchak123",
+      "name": "Venkatesh Daggubhai"
+    },
+    {
+      "id": 2,
+      "username": "kamakal_chacha",
+      "name": "Kamal Khan"
+    },
+    {
+      "id": 3,
+      "username": "thwilo456",
+      "name": "Ayushi Sharma"
+    },
+    {
+      "id": 4,
+      "username": "h_k_56_gun",
+      "name": "Hilmut Singh"
+    },
+    {
+      "id": 5,
+      "username": "paulo_coehlo_fangirl12",
+      "name": "Vipasna Sinha"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "text": "To hum kya karein bhai 😋",
+      "postId": 1,
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "text": "Congratulations bro",
+      "postId": 1,
+      "userId": 4
+    },
+    {
+      "id": 3,
+      "text": "Wow congratulations!! 😘😘💕🥰",
+      "postId": 1,
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "text": "WOWOWOW post pics no?  :\"))",
+      "postId": 1,
+      "userId": 5
+    },
+    {
+      "id": 5,
+      "text": "Sakt launda ho bhai 😎😎😎",
+      "postId": 1,
+      "userId":2
+    },
+    {
+      "id": 6,
+      "text": "🙄😒😒",
+      "postId": 2,
+      "userId": 1
+    },
+    {
+      "id": 7,
+      "text": "Rude 😡😡😡",
+      "postId": 2,
+      "userId": 5
+    },
+    {
+      "id": 8,
+      "text": "Ek number bhai 😂😂👌🤣🤣",
+      "postId": 2,
+      "userId": 4
+    },
+    {
+      "id": 9,
+      "text": "Like button kahan hai 😜",
+      "postId": 2,
+      "userId": 4
+    },
+    {
+      "id": 10,
+      "text": ":(",
+      "postId": 2,
+      "userId": 3
+    },
+    {
+      "id": 11,
+      "text": "Welcome to the party sis 😂😂",
+      "postId": 3,
+      "userId": 5
+    },
+    {
+      "id": 12,
+      "text": "Wow what is TikTok 😀🤔🤔",
+      "postId": 3,
+      "userId": 1
+    },
+    {
+      "id": 13,
+      "text": "Please no...",
+      "postId": 3,
+      "userId": 2
+    },
+    {
+      "id": 14,
+      "text": "Bhai bhai 😂😂",
+      "postId": 3,
+      "userId": 4
+    },
+    {
+      "id": 15,
+      "text": "Ya I don't get it, everybody keeps hating on this platform, but it's just a reflection of you as a person, and humanity as a whole. There's nothing inherently wrong with the app itself :O. You can just, yknow ... not use it? Just a thought!",
+      "postId": 3,
+      "userId": 5
+    }
+  ]
+}
