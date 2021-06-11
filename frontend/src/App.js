@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react"
-import postsService from "./services/postsService"
+import networkService from "./services/networkService"
 
 const App = () => {
   const [posts, setPosts] = useState([])
 
   useEffect(() => {
     const fetchData = async () => {
-      const fetchedPosts = await postsService.getAll()
+      const fetchedPosts = await networkService.get("/posts")
       setPosts(fetchedPosts)
     }
     fetchData()
