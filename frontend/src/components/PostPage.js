@@ -1,23 +1,22 @@
 import React, { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import styled from "styled-components"
-import { RootDiv } from "./common"
+import { RootDiv, Divider, Strong, Text } from "./common"
 
-const Container = styled.div`
+const Container = styled(RootDiv)`
+  border: 0.1rem groove grey;
+  background-color: rgb(227, 196, 255);
+  margin: 1rem;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  border-width: 0.1rem;
 `
 
 const Content = styled(RootDiv)`
-  border: 0.1rem solid grey;
+  /* border: 0.1rem solid rgb(144, 128, 156); */
   border-radius: 0.25rem;
   margin: 0.5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-`
-
-const Main = styled(Content)`
-
-`
-const Comments = styled(Content)`
+  padding: 0.5rem;
 `
 
 const PostPage = ({posts}) => {
@@ -34,21 +33,21 @@ const PostPage = ({posts}) => {
     <>
       {post &&
         <Container>
-          <Main>
-            <h2>{post.title}</h2>
-            <p>{post.content}</p>
-          </Main>
-          <Comments>
-            <h3>Comments</h3>
-            <div>
-              {post.comments.map(comment =>
-                <Content key={comment.id}>
-                  <h4>{comment.user.name}</h4>
-                  <p>{comment.content}</p>
-                </Content>
-              )}
-            </div>
-          </Comments>
+          <h2>{post.title}</h2>
+          <p>{post.content}</p>
+          <Divider />
+          <h3>Comments</h3>
+          <div>
+            {post.comments.map(comment =>
+              <Content key={comment.id}>
+                <Strong>{comment.user.name}</Strong>
+                <Divider />
+                <p>
+                  <Text>{comment.content}</Text>
+                </p>
+              </Content>
+            )}
+          </div>
         </Container>
       }
     </>

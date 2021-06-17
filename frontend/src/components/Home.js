@@ -7,7 +7,8 @@ import {
 import { 
   RootDiv,
   Text,
-  Strong
+  Strong,
+  Divider
 } from "./common"
 
 const StyledLink = styled(Link)`
@@ -40,13 +41,6 @@ const Container = styled(RootDiv)`
 const Background = styled.div`
   align-self: stretch;
   align-content: stretch;
-`
-
-const Divider = styled.div`
-  height: 0.1rem;
-  border-radius: 2px;
-  width: 100%;
-  background-color: rgb(82, 59, 97);
 `
 
 const Home = ({posts}) => {
