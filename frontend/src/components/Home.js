@@ -19,7 +19,7 @@ const StyledLink = styled(Link)`
 const Container = styled(RootDiv)`
   border: 0.1rem groove grey;
   background-color: rgb(227, 196, 255);
-  box-shadow: 2px 2px 4px 5px rgb(189, 120, 255);
+  box-shadow: 2px 2px 1px 5px rgb(189, 120, 255);
   margin: 1rem;
   border-radius: 5px;
   padding: 1rem;
@@ -34,7 +34,7 @@ const Container = styled(RootDiv)`
     border-radius: 7px;
     transform: translate(0px, -5px);
     background-color: rgb(238, 219, 255);
-    box-shadow: 6px 10px 4px 5px rgb(189, 120, 255);
+    box-shadow: 6px 10px 3px 5px rgb(189, 120, 255);
   }
 `
 
