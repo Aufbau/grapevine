@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import styled from "styled-components"
+import { RootDiv } from "./common"
 
 const Container = styled.div`
 `
 
-const Content = styled.div`
+const Content = styled(RootDiv)`
   border: 0.1rem solid grey;
   border-radius: 0.25rem;
   margin: 0.5rem;
